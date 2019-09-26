@@ -1,6 +1,20 @@
 var rules = [
+    // google
     "google.com",
-    "youtube.com"
+    "googleusercontent.com",
+    "gstatic.com",
+    "googleapis.com",
+    // youtube
+    "youtube.com",
+    "googlevideo.com",
+    "ytimg.com",
+    "ggpht.com",
+    // gist.github
+    "gist.github.com",
+    // medium
+    "medium.com",
+    // docker
+    "cloudfront.net"
 ];
 
 function FindProxyForURL(url, host) {
