@@ -24,7 +24,7 @@ var rules = [
 function FindProxyForURL(url, host) {
     for (var i = 0; i < rules.length; i++) {
         if (dnsDomainIs(host, rules[i])) {
-            return "PROXY 127.0.0.1:8255";
+            return "HTTP 127.0.0.1:8255; HTTPS 127.0.0.1:8255; SOCKS 127.0.0.1:8256";
         }
     }
     return "DIRECT";
