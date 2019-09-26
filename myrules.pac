@@ -14,7 +14,9 @@ var rules = [
     // medium
     "medium.com",
     // docker
-    "cloudfront.net"
+    "cloudfront.net",
+    // wikipedia
+    "wikipedia.org"
 ];
 
 function FindProxyForURL(url, host) {
