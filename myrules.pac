@@ -16,7 +16,9 @@ var rules = [
     // docker
     "cloudfront.net",
     // wikipedia
-    "wikipedia.org"
+    "wikipedia.org",
+    // hacker news
+    "news.ycombinator.com"
 ];
 
 function FindProxyForURL(url, host) {
