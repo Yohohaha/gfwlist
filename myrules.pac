@@ -20,7 +20,10 @@ var rules = [
     // hacker news
     "news.ycombinator.com",
     // privoxy
-    "privoxy.org"
+    "privoxy.org",
+    // jetbrains
+    "jetbrains.com",
+    "jetbrains.org"
 ];
 
 function FindProxyForURL(url, host) {
