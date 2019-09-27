@@ -21,6 +21,7 @@ var rules = [
     "news.ycombinator.com",
     // privoxy
     "privoxy.org",
+    "proxifier.com",
     // jetbrains
     "jetbrains.com",
     "jetbrains.org"
