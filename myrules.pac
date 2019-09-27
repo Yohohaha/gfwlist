@@ -18,7 +18,9 @@ var rules = [
     // wikipedia
     "wikipedia.org",
     // hacker news
-    "news.ycombinator.com"
+    "news.ycombinator.com",
+    // privoxy
+    "privoxy.org"
 ];
 
 function FindProxyForURL(url, host) {
