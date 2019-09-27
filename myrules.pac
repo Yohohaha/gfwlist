@@ -11,6 +11,7 @@ var rules = [
     "ggpht.com",
     // gist.github
     "github.com",
+    "githubassets.com",
     // medium
     "medium.com",
     // docker
