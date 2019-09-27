@@ -10,7 +10,7 @@ var rules = [
     "ytimg.com",
     "ggpht.com",
     // gist.github
-    "gist.github.com",
+    "github.com",
     // medium
     "medium.com",
     // docker
