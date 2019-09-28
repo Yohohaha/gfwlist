@@ -12,6 +12,7 @@ var rules = [
     // gist.github
     "github.com",
     "githubassets.com",
+    "githubusercontent.com",
     // medium
     "medium.com",
     // docker
