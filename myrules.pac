@@ -1,5 +1,6 @@
 var rules = [
     // google
+    "goolge",
     "google.com",
     "googleusercontent.com",
     "gstatic.com",
