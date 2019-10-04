@@ -17,7 +17,7 @@ var rules = [
     // "githubapp.com",
     // "github.io",
     // medium
-    "medium.com",
+    // "medium.com",
     // docker
     // "cloudfront.net",
     // wikipedia
