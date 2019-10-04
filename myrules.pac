@@ -29,7 +29,9 @@ var rules = [
     "proxifier.com",
     // jetbrains
     "jetbrains.com",
-    "jetbrains.org"
+    "jetbrains.org",
+    // lantern
+    "getlantern.org"
 ];
 
 function FindProxyForURL(url, host) {
