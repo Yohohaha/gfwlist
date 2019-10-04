@@ -11,15 +11,15 @@ var rules = [
     "ytimg.com",
     "ggpht.com",
     // gist.github
-    "github.com",
-    "githubassets.com",
-    "githubusercontent.com",
-    "githubapp.com",
-    "github.io",
+    // "github.com",
+    // "githubassets.com",
+    // "githubusercontent.com",
+    // "githubapp.com",
+    // "github.io",
     // medium
     "medium.com",
     // docker
-    "cloudfront.net",
+    // "cloudfront.net",
     // wikipedia
     "wikipedia.org",
     // hacker news
@@ -28,8 +28,8 @@ var rules = [
     "privoxy.org",
     "proxifier.com",
     // jetbrains
-    "jetbrains.com",
-    "jetbrains.org",
+    // "jetbrains.com",
+    // "jetbrains.org",
     // lantern
     "getlantern.org"
 ];
