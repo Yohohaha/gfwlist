@@ -14,6 +14,7 @@ var rules = [
     "githubassets.com",
     "githubusercontent.com",
     "githubapp.com",
+    "github.io",
     // medium
     "medium.com",
     // docker
