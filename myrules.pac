@@ -1,8 +1,8 @@
 var rules = [
     // google
-    "google",
-    "google.com",
-    "googleusercontent.com",
+    // "google",
+    // "google.com",
+    // "googleusercontent.com",
     "gstatic.com",
     "googleapis.com",
     // youtube
