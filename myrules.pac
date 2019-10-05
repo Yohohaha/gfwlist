@@ -3,8 +3,8 @@ var rules = [
     // "google",
     // "google.com",
     // "googleusercontent.com",
-    "gstatic.com",
-    "googleapis.com",
+    // "gstatic.com",
+    // "googleapis.com",
     // youtube
     "youtube.com",
     "googlevideo.com",
