@@ -17,13 +17,13 @@ var rules = [
     // "githubapp.com",
     // "github.io",
     // medium
-    // "medium.com",
+    "medium.com",
     // docker
     // "cloudfront.net",
     // wikipedia
     "wikipedia.org",
     // hacker news
-    "news.ycombinator.com",
+    // "news.ycombinator.com",
     // privoxy
     "privoxy.org",
     "proxifier.com",
@@ -37,7 +37,7 @@ var rules = [
 function FindProxyForURL(url, host) {
     for (var i = 0; i < rules.length; i++) {
         if (dnsDomainIs(host, rules[i])) {
-            return "PROXY 127.0.0.1:8255; PROXY 127.0.0.1:8256; PROXY 192.168.1.101:1080";
+            return "PROXY 127.0.0.1:8255; PROXY 127.0.0.1:8256";
         }
     }
     return "DIRECT";
