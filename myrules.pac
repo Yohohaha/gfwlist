@@ -32,8 +32,10 @@ var rules = [
     // "jetbrains.org",
     // lantern
     "getlantern.org",
-    // quora.com
-    "quora.com"
+    // quora
+    "quora.com",
+    // reddit
+    "reddit.com"
 ];
 
 function FindProxyForURL(url, host) {
