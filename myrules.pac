@@ -35,7 +35,9 @@ var rules = [
     // quora
     "quora.com",
     // reddit
-    "reddit.com"
+    "reddit.com",
+    // twitter
+    "twitter.com"
 ];
 
 function FindProxyForURL(url, host) {
