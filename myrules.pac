@@ -37,7 +37,8 @@ var rules = [
     // reddit
     "reddit.com",
     // twitter
-    "twitter.com"
+    "twitter.com",
+    "twimg.com"
 ];
 
 function FindProxyForURL(url, host) {
