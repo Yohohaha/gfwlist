@@ -34,8 +34,11 @@ var rules = [
     "getlantern.org",
     // quora
     "quora.com",
+    "quoracdn.net",
     // reddit
     "reddit.com",
+    "redditmedia.com",
+    "redd.it",
     // twitter
     "twitter.com",
     "twimg.com"
