@@ -41,7 +41,10 @@ var rules = [
     "redd.it",
     // twitter
     "twitter.com",
-    "twimg.com"
+    "twimg.com",
+    // facebook
+    "facebook.com",
+    "facebook.net"
 ];
 
 function FindProxyForURL(url, host) {
