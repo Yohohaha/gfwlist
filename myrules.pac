@@ -44,7 +44,8 @@ var rules = [
     "twimg.com",
     // facebook
     "facebook.com",
-    "facebook.net"
+    "facebook.net",
+    "fbcdn.net"
 ];
 
 function FindProxyForURL(url, host) {
