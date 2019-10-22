@@ -2,6 +2,7 @@ var rules = [
     // google
     "google",
     "google.com",
+    "google.com.hk",
     "googleusercontent.com",
     "gstatic.com",
     "googleapis.com",
