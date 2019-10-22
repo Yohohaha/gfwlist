@@ -28,7 +28,7 @@ var rules = [
     "privoxy.org",
     "proxifier.com",
     // jetbrains
-    // "jetbrains.com",
+    "jetbrains.com",
     // "jetbrains.org",
     // lantern
     "getlantern.org",
