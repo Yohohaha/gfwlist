@@ -47,7 +47,9 @@ var rules = [
     "facebook.net",
     "fbcdn.net",
     "fbsbx.com",
-    "atdmt.com"
+    "atdmt.com",
+    // stackoverflow
+    "imgur.com"
 ];
 
 function FindProxyForURL(url, host) {
