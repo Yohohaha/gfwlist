@@ -1,4 +1,4 @@
-var rules = [
+var hostNames = [
     // google
     "google.com",
     "googleusercontent.com",
@@ -51,11 +51,20 @@ var rules = [
     "imgur.com"
 ];
 
+
+var hostMatchs = [
+    "google"
+];
+
+
 function FindProxyForURL(url, host) {
-    for (var i = 0; i < rules.length; i++) {
-        if (dnsDomainIs(host, rules[i])) {
+    for (var i = 0; i < hostNames.length; i++) {
+        if (dnsDomainIs(host, hostNames[i])) {
             return "PROXY 127.0.0.1:8255; PROXY 127.0.0.1:8256";
-        } else if (shExpMatch(host, "*google*")) {
+        }
+    }
+    for (var i = 0; i < hostMatchs.length; i++) {
+        if (shExpMatch(host, "*" + hostMatchs[i] + "*")) {
             return "PROXY 127.0.0.1:8255; PROXY 127.0.0.1:8256";
         }
     }
