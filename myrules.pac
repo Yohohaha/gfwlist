@@ -1,8 +1,6 @@
 var rules = [
     // google
-    "google",
     "google.com",
-    "google.com.hk",
     "googleusercontent.com",
     "gstatic.com",
     "googleapis.com",
@@ -56,6 +54,8 @@ var rules = [
 function FindProxyForURL(url, host) {
     for (var i = 0; i < rules.length; i++) {
         if (dnsDomainIs(host, rules[i])) {
+            return "PROXY 127.0.0.1:8255; PROXY 127.0.0.1:8256";
+        } else if (shExpMatch(host, "*google*")) {
             return "PROXY 127.0.0.1:8255; PROXY 127.0.0.1:8256";
         }
     }
