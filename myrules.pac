@@ -48,7 +48,9 @@ var hostNames = [
     "fbsbx.com",
     "atdmt.com",
     // stackoverflow
-    "imgur.com"
+    "imgur.com",
+    // download
+    "uploaded.net"
 ];
 
 
