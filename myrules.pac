@@ -50,7 +50,9 @@ var hostNames = [
     // stackoverflow
     "imgur.com",
     // download
-    "uploaded.net"
+    "uploaded.net",
+    //amazonaws
+    "amazonaws.com"
 ];
 
 
