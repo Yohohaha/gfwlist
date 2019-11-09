@@ -11,7 +11,7 @@ var hostNames = [
     "ggpht.com",
     // gist.github
     // "github.com",
-    // "githubassets.com",
+    "githubassets.com",
     // "githubusercontent.com",
     // "githubapp.com",
     // "github.io",
