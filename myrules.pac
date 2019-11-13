@@ -60,17 +60,19 @@ var hostMatchs = [
     "google"
 ];
 
+var proxy = "PROXY 127.0.0.1:8255; PROXY 127.0.0.1:8256";
+var direct = "DIRECT";
 
 function FindProxyForURL(url, host) {
     for (var i = 0; i < hostNames.length; i++) {
         if (dnsDomainIs(host, hostNames[i])) {
-            return "PROXY 127.0.0.1:8255; PROXY 127.0.0.1:8256";
+            return proxy;
         }
     }
     for (var i = 0; i < hostMatchs.length; i++) {
         if (shExpMatch(host, "*" + hostMatchs[i] + "*")) {
-            return "PROXY 127.0.0.1:8255; PROXY 127.0.0.1:8256";
+            return proxy;
         }
     }
-    return "DIRECT";
+    return direct;
 };
