@@ -62,7 +62,7 @@ var hostMatchs = [
     "google"
 ];
 
-var proxy = "__PROXY__";
+var proxy = "PROXY 127.0.0.1:8255; PROXY 127.0.0.1:8256";
 var direct = "DIRECT";
 
 function FindProxyForURL(url, host) {
