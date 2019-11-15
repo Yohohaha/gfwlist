@@ -27,7 +27,7 @@ var hostNames = [
     "privoxy.org",
     "proxifier.com",
     // jetbrains
-    // "jetbrains.com",
+    "jetbrains.com",
     // "jetbrains.org",
     // lantern
     "getlantern.org",
@@ -51,6 +51,8 @@ var hostNames = [
     "imgur.com",
     // download
     "uploaded.net",
+    "turbobit.net",
+    "cloudfront.net",
     //amazonaws
     "amazonaws.com"
 ];
@@ -60,7 +62,7 @@ var hostMatchs = [
     "google"
 ];
 
-var proxy = "PROXY 127.0.0.1:8255; PROXY 127.0.0.1:8256";
+var proxy = "__PROXY__";
 var direct = "DIRECT";
 
 function FindProxyForURL(url, host) {
