@@ -54,7 +54,9 @@ var hostNames = [
     "turbobit.net",
     "cloudfront.net",
     //amazonaws
-    "amazonaws.com"
+    "amazonaws.com",
+    // apache
+    "apache.org"
 ];
 
 
