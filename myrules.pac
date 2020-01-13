@@ -56,7 +56,9 @@ var hostNames = [
     //amazonaws
     "amazonaws.com",
     // apache
-    "apache.org"
+    "apache.org",
+    // es
+    "discourse-cdn.com"
 ];
 
 
