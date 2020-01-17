@@ -60,7 +60,9 @@ var hostNames = [
     // es
     "discourse-cdn.com",
     // golang
-    "golang.org"
+    "golang.org",
+    // maven
+    "sonatype.org"
 ];
 
 
