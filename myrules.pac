@@ -58,7 +58,9 @@ var hostNames = [
     // apache
     "apache.org",
     // es
-    "discourse-cdn.com"
+    "discourse-cdn.com",
+    // golang
+    "golang.org"
 ];
 
 
